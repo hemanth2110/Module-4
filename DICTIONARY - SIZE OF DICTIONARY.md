@@ -1,36 +1,42 @@
-# Exp.No:16  
-## DICTIONARY - SIZE OF DICTIONARY
+# Exp.No:4.b
+## DICTIONARY -Write a program to check whether a given key exists in a dictionary or not.
 
 ---
 
 ### AIM  
-To write a Python program to print the size of a dictionary using `getsizeof()` from the `sys` module.
-
+To write a Python program to check whether a given key exists in a dictionary or not.
 ---
 
 ### ALGORITHM
+Start
 
-1. Begin the program.  
-2. Import the `sys` module to use the `getsizeof()` function.  
-3. Define the dictionaries with key-value pairs (`dic1`, `dic2`, `dic3`).  
-4. Use `sys.getsizeof()` to calculate the memory size of each dictionary.  
-5. Print the size of each dictionary in bytes.  
-6. Terminate the program.
+Create a dictionary dic with keys '0', '1', and '2' mapped to values 1, 2, and 3 respectively
 
----
+Input a value x from the user
+
+Check if x exists in the dictionary keys using x in dic.keys()
+
+If it exists, print "True"
+
+Else, print "False"
+
+End
 
 ### PROGRAM
+dic={'0':1,'1':2,'2':3}
 
-```
-#Reg.No
-#Name
-#Add Your Code Here
+x=input()
 
+if x in dic.keys():
 
+    print("True")
+else:
 
-```
-
+    print("False")
+    
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/1d5feba8-b2c4-44e7-90c8-085e2a98718c)
 
 ### RESULT
+Thus, to check whether a given key exists in a dictionary or not in python was implemented successfully. 
